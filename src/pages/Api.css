@@ -1,0 +1,36 @@
+.header{
+    margin: auto;
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.container{
+    padding:30px;
+    border:1px solid black;
+    background-color: #888;
+    width: 950px;
+    border-radius: 20px;
+}
+
+.content{
+    background-color:white;
+    height: 295px;
+    color: black;
+    border-radius: 20px;
+   
+}
+
+.inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+}
+
+.slick-slide>div{
+    margin: 0 10px;
+}
